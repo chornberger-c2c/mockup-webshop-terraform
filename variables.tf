@@ -7,13 +7,13 @@ variable "project" {
 variable "region" {
   description = "GCP region"
   type        = string
-  default     = "eu-central1"
+  default     = "europe-west3"
 }
 
 variable "zone" {
   description = "GCP zone (used for node pool location if desired)"
   type        = string
-  default     = "us-central1-a"
+  default     = "europe-west3"
 }
 
 variable "network_name" {
@@ -49,7 +49,7 @@ variable "region_location" {
 variable "node_count" {
   description = "Initial node count for the node pool"
   type        = number
-  default     = 3
+  default     = 2
 }
 
 variable "node_machine_type" {
