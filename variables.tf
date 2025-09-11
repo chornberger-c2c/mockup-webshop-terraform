@@ -37,7 +37,7 @@ variable "subnet_ip_cidr" {
 variable "cluster_name" {
   description = "GKE cluster name"
   type        = string
-  default     = "gke-cluster"
+  default     = "grs-gke-cluster"
 }
 
 variable "region_location" {

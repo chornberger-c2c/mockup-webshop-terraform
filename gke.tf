@@ -15,7 +15,7 @@ resource "google_project_iam_member" "node_sa_storage" {
 }
 
 resource "google_container_cluster" "primary" {
-  name                = "mockup-cluster"
+  name                = "grs-cluster"
   location            = "europe-west3"
   project             = var.project
   deletion_protection = false
